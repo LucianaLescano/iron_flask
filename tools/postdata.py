@@ -1,6 +1,4 @@
-from config.configuration import db
-from config.configuration import collection
-
+from config.configuration import db, collection
 
 
 def insertamensaje(escena, personaje, frase):
@@ -13,4 +11,4 @@ def insertamensaje(escena, personaje, frase):
         "character_name" : f"{personaje}",
         "dialogue" : f"{frase}"
     }
-    collection.inset_one(dict_insert)
+    collection.insert_one(dict_insert)

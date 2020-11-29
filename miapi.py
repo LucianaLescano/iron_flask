@@ -3,7 +3,7 @@ import markdown.extensions.fenced_code
 import random
 import tools.getdata as get
 import json
-import tools.postdata as post
+import tools.postdata as pos
 
 
 app = Flask(__name__)

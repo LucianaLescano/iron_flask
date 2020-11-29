@@ -3,7 +3,6 @@ import dotenv
 from pymongo import MongoClient
 
 
-
 dotenv.load_dotenv()
 
 DBURL = os.getenv("URL")
